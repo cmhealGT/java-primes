@@ -8,10 +8,10 @@ public class runSieve {
     public static void main(String[] args) {
         //int number = Integer.parseInt(args[0]);
         int number;
-        for (int i = 1; i <= 9; i++) {
+        for (int i = 1; i <= 7; i++) {
             number = (int) Math.pow(10, i);
             int result = returnNumOfPrimes(number);
-            System.out.println("There are " + result + " primes less than 10^" + i );
+            System.out.println(result + " primes less than 10^" + i );
         }
 
     }
