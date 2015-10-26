@@ -1,6 +1,6 @@
 Welcome to the setup wiki.
 
-# Getting Started
+# Installation
 You should do these tasks in order.  There may be some little issues with setup, so please let me know if one of the components is broken or you can't get everything set up correctly.
 
 **1. Download and install the Java JDK**  
@@ -8,8 +8,6 @@ You should do these tasks in order.  There may be some little issues with setup,
 Link: <http://www.oracle.com/technetwork/java/javase/downloads/>
 
 I use Oracle's Java 8.  Download the appropriate Java 8 JDK (development kit) for your system.  I believe that the latest version will work fine.  We're not doing such outrageous things that we have to really worry about compatibility issues between different Java releases or even different JDKs.
-
-
 
 **2. Sign up for GitHub**
 

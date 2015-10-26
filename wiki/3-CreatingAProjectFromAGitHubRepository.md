@@ -1,4 +1,4 @@
-**Setup**
+# Creating a Project from GitHub
 
 **1. Arrange Access to Repository through GitHub**
 
@@ -8,10 +8,6 @@ We are going to load and work on a public repository that I created in my GitHub
 I've registered you as a collaborator and assigned you a task.
 
 There's a couple of ways to work on this project.
-
-**(Preferred alternative) Collaborators**
-
-
 
 **(Other alternative) Forking the project**
 
@@ -27,7 +23,7 @@ If you have the IDE open, you will have to restart the IDE.
 
 **3. Create a New Project from a GitHub Repository**
 
-For your new project, go to **File>New>Project From Version Control>GitHub**.
+For your new project, go to **File>New>Project From Version Control>GitHub**.  IntelliJ may prompt you for your GitHub username and password.
 
 IntelliJ will automatically give you a list of all of your repositories.  You may have to manually add the following repository:
     `https://github.com/cmhealGT/java-primes.git`
@@ -38,7 +34,7 @@ Push **Clone**.   You may have to open up some new Tool Windows (Go to **View>To
 We have to do a little setup here, because IntelliJ can use a number of different components to organize tasks.
 
   1. From the top toolbar, go to **Tools>Tasks & Contexts>Configure Servers..**
-  2. Add a server configuration, select **GitHub**.
+  2. Click the green "+" to add a server configuration, select **GitHub**.
   3. Add a username
      `cmhealGT`
   4. Add the repository name (in practice, this could be any repository you have access to)
@@ -47,6 +43,3 @@ We have to do a little setup here, because IntelliJ can use a number of differen
   6. Push the **Test** button.  If you have a problem, see me directly and we'll try to work it out.
   7. Press **OK** and you're done.
 
-**4. Open or Create a Task**  
-In general, we always want to create branches when we want to implement changes.  The easiest way to do this within IntelliJ is to start a task which will automatically create a branch to solve that problem.  The new branch that we create is a version of the code that is marked as independent of the master branch (or build code).  That way we have a separate place where we can play with code and save code in an interim basis.  When we're done with our changes, we'll merge our changes with the master branch (and then remove the interim branch).
-  1. Go to **VCS>Git>Branches..**

@@ -1,6 +1,6 @@
 Introduction to some key points in IntelliJ.
 
-# Start an empty project
+# Running a Project in IntelliJ IDEA
 ## Run IntelliJ
 1. If this is the first project you've created, you'll see a getting started wizard.  Select **Create New Project**.  (If you don't see this wizard, you can get to the same point by selection **File>New>Project..**).
 2. In the New Project window, select **Java** on the left.  Next to the **Project SDK** field, select **New**.  In this area, select **JDK**.  The program requires us to locate the JDK we installed in the previous Wiki page.  This should be in the location "C:\Program Files\Java\jdk1.8.0_65" or something similar (depends on the build of Java that you installed.
