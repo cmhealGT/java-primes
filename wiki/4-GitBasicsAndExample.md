@@ -9,8 +9,8 @@ In general, we want to link tasks, changelists https://www.jetbrains.com/idea/he
   2. Select Issue #4, **Add name to Git Basics Markdown List**
   3. Select all defaults, but make sure to create a new branch.
   4. Add name and date to the file named **5-GitExampleSignUpSheet.md**.
-  5. Merge changes with `master`.  Go to **VCS>Git>Pull..** and select **origin/master**.
-  6. Commit and push your changes
+  5. Merge changes with `master`.  Go to **VCS>Git>Pull..** and select **origin/master**.  Select **Merge** to compare files line-by-line.
+  6. Commit and push changes to the remote branch (i.e., to GitHub) by right-clicking the file, selecting **Git>Commit File..**. Inside this dialog, make sure that you select the small arrow next to the **Commit** button and select **Commit and Push**.
   7. Make a pull request to merge your branch with the master. Go to **VCS>Git>Create Pull Request**.
   8. Close the active task. Go to **Tools>Tasks & Context>Close Active Task..**
 
